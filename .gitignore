@@ -1,0 +1,5 @@
+*.csproj
+Assets/Standard Assets/
+Library/
+obj/
+Temp/
