@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 064e549b8fae6f44699de732d52ecba5
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -1359052073548033418
+    second: ZombieRig|AttackAnim
+  - first:
+      74: -1027359181975870244
+    second: ZombieRig|DeathAnim
+  - first:
+      74: 3187209842061570172
+    second: ZombieRig|IdleAnim
+  - first:
+      74: -1085463469393553710
+    second: ZombieRig|RunAnim
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ZombieRig|AttackAnim
+      takeName: ZombieRig|AttackAnim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.45260665
+        functionName: NewEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ZombieRig|DeathAnim
+      takeName: ZombieRig|DeathAnim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ZombieRig|IdleAnim
+      takeName: ZombieRig|IdleAnim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ZombieRig|RunAnim
+      takeName: ZombieRig|RunAnim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: ZOMBIE(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ZombieRig
+      parentName: ZOMBIE(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: 6.123234e-17, z: 6.1232336e-17, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mixamorig:Hips
+      parentName: ZombieRig
+      position: {x: -0.00006749369, y: 0.010945207, z: -0.00018735736}
+      rotation: {x: 0.0000000020404975, y: 0.70510495, z: -0.000000108696526, w: 0.709103}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: 0.00003286452, y: 0.00097327604, z: -5.1804817e-11}
+      rotation: {x: 0.000000003302902, y: 4.911982e-11, z: -0.016876323, w: 0.9998576}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: -1.04773785e-11, y: 0.0011361355, z: -1.466833e-10}
+      rotation: {x: -0.000000005820781, y: 0.000000023283071, z: 0.000000011175871,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: 4.6566128e-12, y: 0.0012984403, z: -1.8626451e-11}
+      rotation: {x: -0.000000011641521, y: -0.000000023283077, z: 0.000000037252903,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: -4.0978193e-10, y: 0.001460746, z: -7.094059e-11}
+      rotation: {x: 1.9645796e-10, y: -0.000000035509018, z: 0.016876291, w: 0.9998576}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: -0.00017751477, y: 0.0010806192, z: -1.862645e-10}
+      rotation: {x: 0.000000013631061, y: 0.000000032014214, z: -0.000000022351742,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: mixamorig:Head_end
+      parentName: mixamorig:Head
+      position: {x: -0, y: 0.0018218362, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.0000022343172, y: 0.0012355048, z: -0.00047428496}
+      rotation: {x: -0.0011933979, y: -0.5827692, z: 0.81263685, w: -0.00020020899}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: 3.9115547e-10, y: 0.0010462763, z: -0.0000000024959443}
+      rotation: {x: -0.12786157, y: 0.007966517, z: -0.02255903, w: 0.9915034}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: 4.4703483e-10, y: 0.0021855298, z: 5.2154064e-10}
+      rotation: {x: -0.0050765052, y: -0.5321353, z: 0.007747978, w: 0.84660864}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1}
+    - name: mixamorig:LeftForeArm_end
+      parentName: mixamorig:LeftForeArm
+      position: {x: -0, y: 0.002361826, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.000012965258, y: 0.0012358655, z: 0.00047428475}
+      rotation: {x: 0.8123926, y: 0.005422162, z: -0.009532658, w: 0.5830079}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: 8.1956386e-10, y: 0.0010462768, z: -8.381903e-10}
+      rotation: {x: -0.12949802, y: -0.010540991, z: 0.030129379, w: 0.99106574}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: -7.916242e-11, y: 0.0021873668, z: -0.0000000011178781}
+      rotation: {x: -0.0016888005, y: 0.54231864, z: -0.009206071, w: 0.84012073}
+      scale: {x: 0.99999976, y: 1.000001, z: 0.9999998}
+    - name: mixamorig:RightForeArm_end
+      parentName: mixamorig:RightForeArm
+      position: {x: -0, y: 0.0023629107, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.0000022931606, y: -0.0005425736, z: -0.00088922185}
+      rotation: {x: -0.0004095867, y: -0.031995602, z: 0.9994051, w: -0.012868507}
+      scale: {x: 0.9999964, y: 0.9999955, z: 0.999992}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: 3.7252902e-11, y: 0.004928878, z: 6.0535965e-11}
+      rotation: {x: -0.002375847, y: -0.000024865789, z: 0.009427403, w: 0.9999528}
+      scale: {x: 0.99999976, y: 1.000001, z: 1.0000001}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: 1.7695129e-10, y: 0.0046819267, z: 1.6763806e-10}
+      rotation: {x: -0.3170029, y: -0.6827342, z: 0.45392147, w: -0.47680038}
+      scale: {x: 1, y: 0.99999934, z: 0.99999905}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: 9.589712e-11, y: 0.0012833605, z: -8.381903e-11}
+      rotation: {x: -0.21009824, y: 0.15886804, z: -0.034624305, w: -0.9640647}
+      scale: {x: 1.0000007, y: 0.99999976, z: 0.99999994}
+    - name: mixamorig:LeftToeBase_end
+      parentName: mixamorig:LeftToeBase
+      position: {x: -0, y: 0.0005559279, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.0000021148844, y: -0.0005425745, z: 0.00088922185}
+      rotation: {x: 0.000396667, y: 0.03199564, z: 0.9994083, w: -0.012620141}
+      scale: {x: 0.9999866, y: 0.9999936, z: 0.99997}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: -0, y: 0.004928817, z: -3.7252902e-11}
+      rotation: {x: 0.00237494, y: 0.00003605394, z: 0.012508609, w: 0.999919}
+      scale: {x: 1.0000025, y: 0.99999624, z: 1.0000001}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: 1.8626451e-11, y: 0.0046831793, z: -2.0489097e-10}
+      rotation: {x: 0.45616576, y: 0.476623, z: -0.31967643, w: 0.6801106}
+      scale: {x: 1.000001, y: 1, z: 0.99999803}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: 7.799826e-11, y: 0.0012908566, z: -1.0244548e-10}
+      rotation: {x: 0.20814781, y: 0.1533551, z: -0.03307083, w: 0.96543413}
+      scale: {x: 1.0000012, y: 0.9999991, z: 0.9999994}
+    - name: mixamorig:RightToeBase_end
+      parentName: mixamorig:RightToeBase
+      position: {x: -0, y: 0.00054966315, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube_Cube.001
+      parentName: ZOMBIE(Clone)
+      position: {x: -0.0000000013969839, y: -0.0000000020954751, z: -0.0000000037252907}
+      rotation: {x: 0.000000081460335, y: 0.00000004371139, z: -3.8029755e-15, w: 1}
+      scale: {x: 99.99999, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

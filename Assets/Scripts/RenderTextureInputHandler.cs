@@ -17,7 +17,6 @@ public class RenderTextureInputHandler : MonoBehaviour, IPointerClickHandler
         thisCanvas = GetComponent<Canvas>();
 
         cameraExitSize = new Vector3(mainCamera.targetTexture.width, mainCamera.targetTexture.height, 0);
-        Debug.Log(cameraExitSize);
     }
 
     public void OnPointerClick(PointerEventData clickData)

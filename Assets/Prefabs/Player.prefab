@@ -4832,7 +4832,7 @@ Light:
     m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
-  m_Flare: {fileID: 0}
+  m_Flare: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39, type: 2}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
@@ -9816,7 +9816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8673372671242773964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0.238}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4851076587596240228}
@@ -9929,12 +9929,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 8673372672377047242}
   movementSettings:
-    ForwardSpeed: 8
-    BackwardSpeed: 4
-    StrafeSpeed: 4
+    ForwardSpeed: 6
+    BackwardSpeed: 3
+    StrafeSpeed: 3
     RunMultiplier: 2
     RunKey: 304
-    JumpForce: 50
+    JumpForce: 60
     SlopeCurveModifier:
       serializedVersion: 2
       m_Curve:
@@ -9970,8 +9970,8 @@ MonoBehaviour:
       m_RotationOrder: 4
     CurrentTargetSpeed: 8
   mouseLook:
-    XSensitivity: 2
-    YSensitivity: 2
+    XSensitivity: 2.5
+    YSensitivity: 2.5
     clampVerticalRotation: 1
     MinimumX: -45
     MaximumX: 90
@@ -10013,7 +10013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8673372672375278318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8673372671242773965}
@@ -10046,7 +10046,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 55
   orthographic: 0
   orthographic size: 5
   m_Depth: 0

@@ -72,6 +72,8 @@ public class EnemyAI : MonoBehaviour
 
     private void FaceTarget()
     {
+        if (animator.GetBool("death")) return;
+
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
 

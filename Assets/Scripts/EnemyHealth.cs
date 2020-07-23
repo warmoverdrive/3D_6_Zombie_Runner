@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -13,8 +14,9 @@ public class EnemyHealth : MonoBehaviour
         
         if(hitPoints <= 0)
         {
-            Destroy(gameObject);
-            //todo add some razzle dazzle
+            Destroy(GetComponent<NavMeshAgent>());
+            Destroy(GetComponent<CapsuleCollider>());
+            GetComponent<Animator>().SetBool("death", true);
         }
     }
 }
